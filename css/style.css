@@ -1,0 +1,58 @@
+* {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: ;
+}
+
+header {
+  display: flex;
+  background-color:;
+  padding: 10px;
+}
+
+.logo {
+  flex: 1;
+}
+
+.logoImage {
+  background-color: ;
+}
+
+.name {
+  flex-grow: 8;
+  text-align: center;
+  background-color: ;
+  display: flex;
+  flex-direction: column;
+  padding-left: ;
+  padding-right: ;
+  padding-top: ;
+
+
+
+}
+
+#firstName {background-color: ;
+  font-size: 31px;
+  font-weight: 600;
+  letter-spacing: 7px;
+  line-height: ;
+  padding-top: 5px;
+
+}
+
+#lastName {background-color: ;
+  font-size: 17px;
+  letter-spacing: 2.7px;
+font-weight: 700;
+padding-bottom: 5px;
+margin-top: -5px;
+}
+
+.navButton {
+  flex: 1;
+  text-align: right;
+  padding-right: 5px;
+}
+
+footer {background-color: ;
+height: 100px;}
