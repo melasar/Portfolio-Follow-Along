@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600,700" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
   </head>
 
@@ -19,8 +20,18 @@
         <div id="firstName">SARAH</div>
         <div id="lastName">MELARAGNO</div>
       </div>
-    <!--<div class="navButton">&#9776;</div>--> <!-- Results in ☰ -->
-      <div class="navButton">&#9776;</div>
+      <nav onclick='$(".menu").toggle();'>
+        <div class="navButton">
+          &#9776;
+        </div>
+        <ul class="menu" style="display: none">
+          <li class="navHome">Home</li>
+          <li class="navResume">Resume</li>
+          <li class="navWork">Work</li>
+        </ul>
+
+
+      </nav>
     </header>
 
     <main>
