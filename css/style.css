@@ -3,6 +3,8 @@
   font-size: ;
 }
 
+/*BEGIN HEADER*/
+
 header {
   display: flex;
   background-color:;
@@ -50,23 +52,26 @@ margin-top: -5px;
 
 nav {
   position: relative;
-  flex:1;
+  flex:;
   display: flex;
   flex-direction: column;
+  padding: 0px;
 
 }
 
 .navButton {
-  text-align: right;
+  text-align: center;
   margin-right: 10px;
   margin-top: 5px;
-  padding: 3px 5px 3px 5px;
+  padding: ;
   color: white;
   background-color: purple;
+  width: 20px;
+  height: 23px;
 }
 
 nav ul.menu {
-  padding-bottom: 50px;
+
   padding: 0;
   list-style: none;
   display: none;
@@ -82,7 +87,6 @@ margin-right: 10px;
 margin-top: 40px;
 
 }
-
 
 nav ul.menu li {
   margin: 50px 50px 50px 50px;
@@ -102,13 +106,54 @@ nav ul.menu li.navWork {
   background-color: white;
 }
 
-
-
 nav:hover ul {
 
   background-color: ;
   text-align: right;
 }
+/*END HEADER*/
+
+
+
+/*BEGIN MAIN*/
+main {
+  min-height: 500px;
+  border: 1px solid black;
+}
+/*END MAIN*/
+
+
+
+
+/*BEGIN FOOTER*/
+footer {
+  text-align: center;
+  padding-top: 20px;
+  line-height: 1.3;
+}
+
+.socialMedia {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  }
+
+.socialIcon {
+width: 30px;
+height: 30px;
+margin-right: 5px;
+margin-left: 5px;
+}
+
+.socialIcon img {
+  width: 30px;
+  height: 30px;
+}
+
+/*END FOOTER*/
+
 
 
 footer {background-color: ;
