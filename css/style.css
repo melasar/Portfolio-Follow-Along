@@ -55,61 +55,63 @@ nav {
   flex:;
   display: flex;
   flex-direction: column;
-  padding: 0px;
+  height: 100%;
 
+flex:1;
 }
 
 .navButton {
-  text-align: center;
+  text-align: right;
   margin-right: 10px;
   margin-top: 5px;
   padding: ;
-  color: white;
-  background-color: purple;
-  width: 20px;
+  color: black;
+  background-color: ;
+  width: ;
   height: 23px;
+
 }
 
 nav ul.menu {
 
-  padding: 0;
+  padding: 15px;
   list-style: none;
   display: none;
   position: absolute;
   right: 0px;
-  text-align: right;
+  text-align: center;
   font-size: 20px;
   letter-spacing: 1.6px;
 font-weight: 700;
 text-transform: uppercase;
-background-color: rgba(253, 255, 229, 0.95);
+background-color: #B0AEBF;
 margin-right: 10px;
 margin-top: 40px;
 
 }
 
 nav ul.menu li {
-  margin: 50px 50px 50px 50px;
+  margin: 15px 30px 15px 30px;
   padding: 20px;
 }
 
 nav ul.menu li.navHome {
-  background-color: white;
+  background-color: #EBE2E0;
 
 }
 
 nav ul.menu li.navResume {
-  background-color: white;
+  background-color: #EBE2E0;
 }
 
 nav ul.menu li.navWork {
-  background-color: white;
+  background-color: #EBE2E0;
 }
 
 nav:hover ul {
 
   background-color: ;
-  text-align: right;
+  text-align: center;
 }
 /*END HEADER*/
 
