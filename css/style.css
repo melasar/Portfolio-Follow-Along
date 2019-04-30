@@ -3,25 +3,36 @@
   font-size: ;
 }
 
-a {color: #FFEC83;}
+a {color: rgb(248, 241, 211);
+height: 100%;}
 
 /*BEGIN HEADER*/
 
 header {
   display: flex;
-background-color: #BFA62A ;
+/*background-color: rgba(214, 189, 67) ;*/
+background-color: 	;
  padding: 10px;
+ border-bottom: 1px solid black;
+ align-items: center;
 
 }
 
 .logo {
-  flex: 1;
+  flex: ;
+    margin-left: 5px;
 }
 
 .logoImage {
   background-color: ;
-  border: 1px solid black;
-  margin-left: 5px;
+  border: ;
+  max-width: 150px;
+
+
+}
+
+.logoImage img {
+  width: 100%;
 }
 
 .name {
@@ -32,9 +43,10 @@ background-color: #BFA62A ;
   flex-direction: column;
   padding-left: ;
   padding-right: ;
-  padding-top: ;
-  color: #FFEC83;
-
+  margin-top: ;
+  color: black;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 #firstName {background-color: ;
@@ -60,27 +72,34 @@ nav {
   display: flex;
   flex-direction: column;
   height: 100%;
+  border: 1px solid rgb(219, 195, 87)
+;
+  border-radius: 50%;
+  background-color: rgb(246, 240, 213)
 
-flex:1;
+;
+  width: ;
+  margin-right: 10px;
+  margin-left: ;
+  flex:;
 }
 
 .navButton {
-  text-align: right;
-  margin-right: 10px;
-  margin-top: 5px;
-  padding: ;
+  text-align: center;
+  padding: 5px 10px;
   color: black;
   background-color: ;
   width: ;
-  height: 23px;
+  height: ;
 
 }
 
 nav ul.menu {
 
-  padding: 15px;
+  padding: ;
   list-style: none;
   display: flex;
+  flex-direction: column;
   position: absolute;
   right: 0px;
   text-align: center;
@@ -89,16 +108,21 @@ nav ul.menu {
 font-weight: 700;
 text-transform: uppercase;
 background-color: ;
-margin-right: 30px;
-margin-top: -10px;
+margin-bottom: 0px;
+margin-top: 70px;
+
+
+
 
 }
 
 nav ul.menu li {
-  margin: 5px 10px 5px 15px;
-  padding: 10px;
+  margin: 10px 10px 5px 15px;
+  padding: 15px;
   border: 1px solid white;
   color: white;
+  font-size: 18px;
+  line-height: 0.7;
 }
 
 nav ul.menu li.navAbout {
@@ -129,9 +153,30 @@ nav:hover ul {
 main {
 
   min-height: 500px;
-  border: 1px solid black;
+  border: ;
   background-image: url();
+  padding: 15px;
+  margin-bottom: 25px;
+  margin-top: 15px;
 }
+
+.profileImage img {
+  width: 70%;
+  border-radius: 50%;
+}
+
+.profileImage {
+  text-align: center;
+  margin-bottom: 10px;
+
+}
+
+main p {
+padding: 10px 20px;
+margin: 0px;
+}
+
+
 /*END MAIN*/
 
 
@@ -143,8 +188,8 @@ footer {
   padding-top: 20px;
   line-height: 1.3;
   height: 125px;
-  background-color: #BFA62A ;
-  color: #FFEC83;
+  background-color: rgb(214, 189, 67) ;
+  color:rgb(248, 241, 211);
 
 }
 
@@ -152,10 +197,12 @@ footer {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
   font-size: 30px;
   background-color: ;
+  align-items:;
+    color: rgb(248, 241, 211);
   }
 
 .socialMedia i {
@@ -165,6 +212,7 @@ footer {
 
 .contact {
   margin-bottom:;
+  color: rgb(248, 241, 211);
 }
 
 /*END FOOTER*/
